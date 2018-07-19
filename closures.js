@@ -211,7 +211,7 @@ function timeOutCounter() {
     function memoryClosure(timeIndex){
     setTimeout(function() {
       console.log(timeIndex);
-    }, i * 1000);
+    }, timeIndex * 1000);
   }
     memoryClosure(i);
   }
